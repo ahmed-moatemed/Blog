@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  footer i {
+    margin-right: 30px;
+  }
+
+  footer i:hover{
+    cursor: pointer;
+    color: #0541e5;
+    scale: 1.3;
+  }

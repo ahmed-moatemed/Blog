@@ -1,0 +1,133 @@
+
+* {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.container {  
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .left {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+    flex: 2;
+    top: 0;
+    left: 0;
+}
+
+.container .left .back img {
+    position: absolute;
+    top: -15px;
+    left: -290px;
+    z-index: -1;
+    height: 110vh !important;
+    object-fit: cover;
+}
+
+.container .left .logo {
+    width: 70px;
+    height: 60px;
+    background-color: #fff;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.container .left .logo h1 {
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container .left .title1 {
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container .left .title1 h2 {
+    font-size: 50px;
+}
+
+.container .left .title1 p {
+    font-weight: 500;
+    margin-top: -15px;
+}
+
+.container .left .title1 span {
+    color: rgba(255, 0, 0, 0.639);
+}
+
+.container .left .title2 {
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.container .left .title2 h2 {
+    font-size: 50px;
+}
+
+.container .left .title2 p {
+    font-weight: 500;
+    margin-top: -15px;
+}
+
+.container .left .title2 span {
+    color: rgba(255, 0, 0, 0.639);
+}
+
+.container .left .qr {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.container .right {
+    width: 50%;
+    color: #000;
+    position: relative;
+    margin-left: 50%; 
+    overflow-y: auto; 
+    flex: 1;
+    height: 100vh; 
+}
+
+/* Media Query للشاشات الصغيرة */
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container .left {
+        position: relative;
+        width: 100%;
+        height: auto; 
+    }
+
+    .container .right {
+        width: 100%;
+        margin-left: 0;
+        height: auto; 
+    }
+
+    .container .left .back img {
+        width: 100%;
+        left: 0;
+        height: 100vh;
+    }
+
+    .container .left .title2 {
+        position: relative;
+        right: 0;
+        width: 100%;
+        margin-left: 20px;
+    }
+    /*  */
+}

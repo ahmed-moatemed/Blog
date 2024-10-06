@@ -1,0 +1,36 @@
+.contener{
+    margin: 20px;
+    padding: 20px;
+}
+
+.contener .box {
+    display: flex !important;
+  }
+  .contener .img {
+    width: 350px;
+    height: 350px;
+  }
+  .contener img {
+    width: 100%;
+    height: 100%;
+  }
+  .contener .text {
+    width: 50%;
+    padding: 60px 0 70px 30px;
+  }
+  .contener .text span{
+    color: red;
+  }
+
+  /*----------card two----*/
+  .CardTwo .box:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .CardTwo .img {
+    padding: 10px;
+  }
+  .CardTwo .img img:hover{
+    cursor: default;
+  }
+  /*----------card two----*/
+  
