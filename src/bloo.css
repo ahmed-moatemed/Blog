@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 * {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -22,44 +23,92 @@
 }
 
 .container .left .back img {
+=======
+*{
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+.continer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.continer .left{
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    top: 0;
+    color: white;
+    overflow: hidden;
+} 
+
+.continer .left .back img{
+>>>>>>> 198fab7 (First one)
     position: absolute;
     top: -15px;
     left: -290px;
     z-index: -1;
     height: 110vh !important;
+<<<<<<< HEAD
     object-fit: cover;
 }
 
 .container .left .logo {
+=======
+}
+
+.continer .left .logo{
+>>>>>>> 198fab7 (First one)
     width: 70px;
     height: 60px;
     background-color: #fff;
     position: relative;
     left: 20px;
+<<<<<<< HEAD
     top: 20px;
 }
 
 .container .left .logo h1 {
+=======
+    top: -20px;
+}
+
+.continer .left .logo h1{
+>>>>>>> 198fab7 (First one)
     color: #000;
     text-align: center;
     font-size: 50px;
 }
 
+<<<<<<< HEAD
 .container .left .title1 {
+=======
+.continer .left .title1{
+>>>>>>> 198fab7 (First one)
     width: 40%;
     margin-left: 20px;
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
 .container .left .title1 h2 {
     font-size: 50px;
 }
 
 .container .left .title1 p {
+=======
+.continer .left .title1 h2{
+    font-size: 50px;
+}
+
+.continer .left .title1 p{
+>>>>>>> 198fab7 (First one)
     font-weight: 500;
     margin-top: -15px;
 }
 
+<<<<<<< HEAD
 .container .left .title1 span {
     color: rgba(255, 0, 0, 0.639);
 }
@@ -76,19 +125,47 @@
 }
 
 .container .left .title2 p {
+=======
+.continer .left .title1 span{
+    color: rgba(255, 0, 0, 0.639);
+}
+
+.continer .left .title2{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    right: -58%;
+    top: 100px;
+}
+
+.continer .left .title2 h2{
+    font-size: 50px;
+}
+
+.continer .left .title2 p{
+>>>>>>> 198fab7 (First one)
     font-weight: 500;
     margin-top: -15px;
 }
 
+<<<<<<< HEAD
 .container .left .title2 span {
     color: rgba(255, 0, 0, 0.639);
 }
 
 .container .left .qr {
+=======
+.continer .left .title2 span{
+    color: rgba(255, 0, 0, 0.639);
+}
+
+.continer .left .qr{
+>>>>>>> 198fab7 (First one)
     margin-top: 10px;
     margin-left: 20px;
 }
 
+<<<<<<< HEAD
 .container .right {
     width: 50%;
     color: #000;
@@ -131,3 +208,27 @@
     }
     /*  */
 }
+=======
+.continer .right{
+    width: 50%;
+    color: #000;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+@media  only screen and (max-width: 768px) {
+
+    .continer{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        position: relative;
+    }
+    .right{
+        width: 100%;
+        position: relative;
+    }
+    
+}
+>>>>>>> 198fab7 (First one)

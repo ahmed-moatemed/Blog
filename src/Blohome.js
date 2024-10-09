@@ -21,12 +21,20 @@ const Blohome = () => {
       ]
   return (
     <>
+<<<<<<< HEAD
       <div className='container'>
+=======
+      <div className='continer'>
+>>>>>>> 198fab7 (First one)
         <div className='left'>
             {
                 data.map((value)=>{
                     return(
+<<<<<<< HEAD
                         <div className='contect' key={value.id}>
+=======
+                        <div className='contect'>
+>>>>>>> 198fab7 (First one)
                             <div className='logo'>
                             <h1>M</h1>
                         </div>
@@ -63,4 +71,8 @@ const Blohome = () => {
   )
 }
 
+<<<<<<< HEAD
 export default Blohome
+=======
+export default Blohome
+>>>>>>> 198fab7 (First one)

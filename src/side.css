@@ -2,7 +2,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
+<<<<<<< HEAD
     margin-left: 30px;
+=======
+>>>>>>> 198fab7 (First one)
   }
   .top {
     margin-top: 80px;
@@ -34,6 +37,7 @@
   .card h2 {
     font-size: 20px;
     line-height: 30px;
+<<<<<<< HEAD
   }
 
   @media (max-width: 800px){
@@ -44,4 +48,6 @@
       margin-left: 20px;
     }
 
+=======
+>>>>>>> 198fab7 (First one)
   }
