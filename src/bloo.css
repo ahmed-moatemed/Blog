@@ -100,7 +100,7 @@
 }
 
 /* Media Query للشاشات الصغيرة */
-@media (max-width: 800px) {
+@media (max-width: 1366px) {
     .container {
         flex-direction: column;
     }
@@ -130,4 +130,23 @@
         margin-left: 20px;
     }
     /*  */
+}
+
+@media (max-width: 376px){
+    .container .left .title1 h2 {
+        font-size: 30px;
+    }
+
+    .container .left .title2 h2 {
+        font-size: 30px;
+    }
+
+    .container .left .logo {
+        width: 50px;
+        height: 40px;
+    }
+
+    .container .left .logo h1 {
+        font-size: 40px;
+    }
 }
