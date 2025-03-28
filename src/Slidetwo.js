@@ -30,8 +30,4 @@ const Slidetwo = () => {
   )
 }
 
-<<<<<<< HEAD
 export default Slidetwo
-=======
-export default Slidetwo
->>>>>>> 198fab7 (First one)

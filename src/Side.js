@@ -27,8 +27,4 @@ const side = () => {
   )
 }
 
-<<<<<<< HEAD
 export default side
-=======
-export default side
->>>>>>> 198fab7 (First one)
